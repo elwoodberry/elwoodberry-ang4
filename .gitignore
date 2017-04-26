@@ -1,1 +1,10 @@
+# IGNORED FILES & DIRECTORIES
+# Elwood Berry
+# www.elwoodberry.com
+# Last Updated April 26th, 2017
+# ------------------------------------------
+
+
+.DS_Store
+
 /node_modules
