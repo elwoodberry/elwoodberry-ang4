@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 
 // Port
-var port = 3000;
+var port = 8080;
 
 // Express
 var app = express(); 
@@ -24,5 +24,5 @@ app.use('/', index);
 
 // Listen to run the server
 app.listen(port, function(){
-	console.log('Available On Port' + port);
+	console.log('Available On Port: ' + port);
 });
