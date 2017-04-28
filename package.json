@@ -10,13 +10,6 @@
     "url": "git+https://github.com/elwoodberry/elwoodberry-ang4.git"
   },
   "dependencies": {
-    "angular": "^1.6.4",
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "method-override": "^2.3.8",
-    "mongoose": "^4.9.6",
-    "morgan": "^1.8.1",
-    "optimist": "^0.6.1",
-    "todomvc-common": "^1.0.3"
+    "express": "*"
   }
 }
