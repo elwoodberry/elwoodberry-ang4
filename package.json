@@ -5,18 +5,18 @@
   "main": "server.js",
   "author": "me@elwoodberry.com",
   "license": "ISC",
-  "dependencies" : {
-    "angular": "1.2.22",
-    "todomvc-common": "~0.1.4",
-    "express"    : "~4.7.2",
-    "mongoose"   : "~3.8.27",
-    "morgan"   : "~1.2.2",
-    "body-parser": "~1.5.2",
-    "method-override": "~2.1.2",
-    "optimist": "*"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elwoodberry/elwoodberry-ang4.git"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1",
+    "optimist": "^0.6.1",
+    "todomvc-common": "^1.0.3"
   }
 }
