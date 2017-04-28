@@ -1,10 +1,19 @@
+// Dependencies
 var express = require('express');
-var app = express();
+var path = require('path');
+var bodyParser = require('body-parser'); 
 
-app.get('/', function(req, res){
-	res.send('working');
-});
+// Express
+var app = express(); 
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
-app.listen(8080);
+// Route
+app.use(express.static(path.join(__dirname, 'client/dist')));
+// app.get('/', function(req, res){
+	// res.send('working');
+// });
+
+app.listen();
 
 console.log('Port 8080 Is Available...');
