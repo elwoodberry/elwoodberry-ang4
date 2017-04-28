@@ -14,6 +14,6 @@ app.use(express.static(path.join(__dirname, 'client/dist')));
 	// res.send('working');
 // });
 
-app.listen();
+app.listen(8080);
 
 console.log('Port 8080 Is Available...');
