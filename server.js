@@ -9,7 +9,7 @@ var argv = require('optimist').argv;
 
 
 // configuration =================
-mongoose.connect('mongodb://' + argv.be_ip + ':80/my_database');
+//mongoose.connect('mongodb://' + argv.be_ip + ':80/my_database');
 app.use('/js', express.static(__dirname + '/js'));
 app.use('/bower_components', express.static(__dirname + '/bower_components'));
 app.use(morgan('dev'));
@@ -94,7 +94,7 @@ app.delete('/api/todos/:todo_id', function(req, res) {
 
 // application -------------------------------------------------------------
 app.get('/', function(req, res) {
-	res.sendfile('index.html'); // load the single view file (angular will handle the page changes on the front-end)
+	res.sendfile('client/dist/index.html'); // load the single view file (angular will handle the page changes on the front-end)
 });
 
 // listen (start app with node server.js) ======================================
