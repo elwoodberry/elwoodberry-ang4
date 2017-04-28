@@ -1,24 +1,22 @@
 {
   "name": "elwoodberry-ang4",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "The Angular 4 version of www.elwoodberry.com",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "author": "me@elwoodberry.com",
+  "license": "ISC",
+  "dependencies" : {
+    "angular": "1.2.22",
+    "todomvc-common": "~0.1.4",
+    "express"    : "~4.7.2",
+    "mongoose"   : "~3.8.27",
+    "morgan"   : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2",
+    "optimist": "*"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elwoodberry/elwoodberry-ang4.git"
   },
-  "author": "me@elwoodberry.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/elwoodberry/elwoodberry-ang4/issues"
-  },
-  "homepage": "https://github.com/elwoodberry/elwoodberry-ang4#readme",
-  "dependencies": {
-    "body-parser": "~1.5.2",
-    "express": "~4.7.2"
-  }
 }
