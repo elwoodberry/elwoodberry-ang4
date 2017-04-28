@@ -8,10 +8,13 @@ var app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+// Port
+var port;
+
 // Route
 // app.get('/', function(req, res){res.send('working');});
 app.use(express.static(path.join(__dirname, 'client/dist')));
 
-app.listen();
-
-console.log('Port Is Available...');
+app.listen(port, function(){
+	console.log('Available On Port: ' + port);
+});
