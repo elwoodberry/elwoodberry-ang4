@@ -9,11 +9,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 // Route
+// app.get('/', function(req, res){res.send('working');});
 app.use(express.static(path.join(__dirname, 'client/dist')));
-// app.get('/', function(req, res){
-	// res.send('working');
-// });
 
-app.listen(8080);
+app.listen();
 
-console.log('Port 8080 Is Available...');
+console.log('Port Is Available...');

@@ -21,7 +21,7 @@ module.exports = module.exports.toString();
 /***/ 135:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\n  {{title}}\n</h1>\n"
+module.exports = "<!-- <h1>{{title}}</h1> -->\n\n\n<div style=\"display: block;background-color: aliceblue;text-align: center;position: absolute;width: 100%;height: 50px;left: 0;top: 50%;\">\n\nElwood S. Berry III <br/>\nFull Stack JavaScript Developer <br/>\nme@elwoodberry.com <br/>\n <br/>\nBlacklick, OH 43004 <br/>\n(469) 609-7444 <br/>\n <br/>\nVisit My Website:  http://elwoodberry.com <br/>\n <br/>\nDownload The Latest Version Of My Resume: http://bit.ly/2prschc  <br/>\n <br/>\nI am also the author \"One Million Per Hour\". http://www.amazon.com/books/dp/0615628079 <br/>\n\n</div>"
 
 /***/ }),
 
