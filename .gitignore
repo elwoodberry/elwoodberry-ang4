@@ -1,7 +1,7 @@
 # IGNORED FILES & DIRECTORIES
 # Elwood Berry
 # www.elwoodberry.com
-# Last Updated April 26th, 2017
+# Last Updated May 1st, 2017
 # ------------------------------------------
 
 
@@ -9,5 +9,8 @@
 .DS_Store
 Thumbs.db
 
-# dependencies
+# Dependencies
 /node_modules
+
+# References
+references.md

@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 // Port
-var port = 8080;
+var port = 80;
 
 // Route
 // app.get('/', function(req, res){res.send('working');});
