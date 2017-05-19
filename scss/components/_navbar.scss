@@ -1,0 +1,29 @@
+/*
+
+Navbars
+Parent: 'navbar'
+URL: http://getbootstrap.com/components/#navbar
+--------------------------------------------------
+*/
+
+.elwood-navbar {
+	@include border-radius(0);
+}
+
+.elwood-fixed-navbar {
+	left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+	.container-fluid {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+.elwood-clear-navbar {
+	background-color: transparent;
+	border-color: transparent;
+}

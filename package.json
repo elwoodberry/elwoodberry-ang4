@@ -12,5 +12,12 @@
   "dependencies": {
     "express": "*",
     "body-parser": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*"
   }
 }

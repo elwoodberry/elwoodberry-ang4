@@ -1,0 +1,47 @@
+
+
+.githubCell {
+	background-color: rgba(0, 0, 0, 0);
+	font-family: 'Roboto', sans-serif;
+
+	.panel {
+
+		.panel-heading {
+			background-color: rgba(0, 0, 0, 0);
+		}
+
+		.panel-body {
+			background-color: rgba(0, 0, 0, 0);
+		}
+
+		ul {
+			li {
+				display: block;
+				font-family: 'Roboto', sans-serif;
+			}
+		}
+
+		a {
+			color: #bf0044;
+			font-family: 'Roboto', sans-serif;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+
+		h3 {
+			padding: 5px 0;
+			text-align: left;
+		}
+
+		h4 {
+			color: #000;
+			font-family: 'Roboto', sans-serif;
+			margin: 10px 0;
+			line-height: 1;
+			height: 55px;
+			width: 100%;
+		}
+	}
+
+}

@@ -1,0 +1,245 @@
+/*
+
+Splash Head
+Used in the Home Component
+
+--------------------------------------------------
+*/
+
+#splashHead {
+	background-image: url('assets/img/elwoodberry-bckgrnd-img_001.png');
+	background-size: cover;
+	background-position: center center;
+	height: 350px;
+
+	.displayPanel {
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+
+		img {
+			width: 35%;
+		}
+	}
+
+	.transparency {
+		background-color: rgba(228, 242, 255, 0.7);
+		position: absolute; 
+		height: 100%; 
+		width: 100%; 
+		top: 0; 
+		left: 0;
+	}
+}
+
+@media (min-width: 700px){
+	#splashHead {
+		.displayPanel {
+			img {
+				width: 18%;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+#splashhead {
+    background-color: #FFF;
+    height: 725px;
+    position: relative;
+
+	.panel {
+		bottom: 160px;
+		left: -130px;
+		position: absolute;
+		width: 50%;
+		z-index: 11;
+
+		h2, h4, p {
+			color: #000;
+			font-family: 'Roboto', sans-serif;
+			font-weight: normal;
+		}
+	}
+
+	.meanstack-image {
+		background-color: transparent;
+		content: "iphone 5";
+		height: inherit;
+		width: 100%;
+
+		.mean-stack-cubes {
+			bottom: 200px;
+			/* display: none; */
+			height: 480px;
+			position: absolute;
+			right: 0px;
+			width: auto;
+			z-index: 10;
+		}
+		.iphone-img {
+			bottom: 290px;
+			/* display: none; */
+			height: 335px;
+			left: 20px;
+			position: absolute;
+			z-index: 9;
+		}
+	}
+
+	.background-img {
+		background-image: url(assets/img/splash-header-background.jpg);
+		height: 440px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 0;
+		@include opacity(.3);
+	}
+}
+
+@keyframes fadein-mstack {
+	0% {
+		/* @include opacity(0); */
+		/* right: 0px; */
+
+	}
+	100% {
+		/* @include opacity(100); */
+		/* right: 40px; */
+
+	}
+}
+
+
+
+@media (min-width: 768px){
+
+	#splashhead {
+		height: 585px;
+
+	    	.container {
+	    		height: inherit;
+	    		position: relative;
+	    		width: 768px;
+
+		    	.panel {
+					top: 160px;
+					left: 15px;
+					position: absolute;
+					width: 345px;
+					z-index: 11;
+		    	}
+
+		    	.meanstack-image {
+
+		    		.mean-stack-cubes {
+						bottom: 1px;
+						height: 585px;
+						position: absolute;
+						right: 0;
+						width: auto;
+						z-index: 10;
+		    		}
+					.iphone-img {
+						bottom: 105px;
+						height: 401px;
+						left: initial;
+						right: 225px;
+						position: absolute;
+						z-index: 12;
+					}
+		    	}
+	    	}
+	}
+
+}
+
+@media (min-width: 992px){
+
+	#splashhead {
+		height: 585px;
+
+    	.container {
+    		height: inherit;
+    		position: relative;
+    		width: 768px;
+
+	    	.panel {
+				top: 160px;
+				left: 15px;
+				position: absolute;
+				width: 345px;
+				z-index: 11;
+	    	}
+
+	    	.meanstack-image {
+
+	    		.mean-stack-cubes {
+					bottom: 1px;
+					height: 585px;
+					position: absolute;
+					right: 0;
+					width: auto;
+					z-index: 10;
+	    		}
+				.iphone-img {
+					bottom: 105px;
+					height: 401px;
+					left: initial;
+					right: 225px;
+					position: absolute;
+					z-index: 12;
+				}
+	    	}
+    	}
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	#splashhead {
+		height: 585px;
+
+    	.container {
+    		height: inherit;
+    		position: relative;
+    		width: 768px;
+
+	    	.panel {
+				top: 160px;
+				left: 15px;
+				position: absolute;
+				width: 345px;
+				z-index: 11;
+	    	}
+
+	    	.meanstack-image {
+
+	    		.mean-stack-cubes {
+					bottom: 1px;
+					height: 585px;
+					position: absolute;
+					right: 0;
+					width: auto;
+					z-index: 10;
+	    		}
+				.iphone-img {
+					bottom: 105px;
+					height: 401px;
+					left: initial;
+					right: 225px;
+					position: absolute;
+					z-index: 12;
+				}
+	    	}
+    	}
+	}
+
+}

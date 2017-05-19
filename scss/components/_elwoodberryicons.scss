@@ -1,0 +1,32 @@
+
+
+
+
+@font-face {
+	font-family: 'elwoodberry';
+	src:  url('assets/fonts/elwoodberry.eot');
+	src:  url('assets/fonts/elwoodberry.eot') format('embedded-opentype'),
+	    url('assets/fonts/elwoodberry.ttf') format('truetype'),
+	    url('assets/fonts/elwoodberry.woff') format('woff'),
+	    url('assets/fonts/elwoodberry.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	-moz-osx-font-smoothing: grayscale;	
+	-webkit-font-smoothing: antialiased;
+	font-family: 'elwoodberry' !important;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	speak: none;
+	text-transform: none;
+}
+
+.icon-brand:before {
+  content: "\e900";
+}
+
+
