@@ -632,40 +632,45 @@ Footer
 
 --------------------------------------------------
 */
-footer {
-  background-color: rgba(0, 0, 0, 0.1);
+#footer {
+  background-color: rgba(80, 80, 80, 0.15);
   height: 325px;
   position: relative; }
-  footer .container {
-    background-color: rgba(0, 0, 0, 0.1);
+  #footer .container .panel {
+    background-color: rgba(150, 150, 150, 0.05);
+    color: #666;
     height: 100%;
-    left: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-    position: absolute !important;
-    width: 100%;
-    z-index: 100; }
-    footer .container .panel {
-      background-color: rgba(150, 150, 150, 0.65);
-      color: #FFF;
-      height: 100%;
-      left: 0;
-      margin-bottom: 0;
-      padding-left: 60px;
-      position: absolute;
-      top: 0;
-      width: 300px; }
-  footer #map {
-    background-color: darkolivegreen;
-    height: 100%;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1; }
+    margin: 0;
+    padding: 25px 0 0 25px;
+    width: 300px; }
+    #footer .container .panel .social-icons {
+      margin: 15px 0; }
+      #footer .container .panel .social-icons .row {
+        margin-right: 0px; }
+      #footer .container .panel .social-icons a {
+        background-color: rgba(230, 230, 230, 0.14);
+        color: #bf0044;
+        height: 35px;
+        font-size: 20px;
+        padding: 3px;
+        text-align: center; }
+    #footer .container .panel h1, #footer .container .panel strong {
+      font-family: 'Roboto', sans-serif; }
+  #footer .container .copywrite {
+    border-top: 1px solid #464a4c;
+    font-size: 11px;
+    margin: 5px 0;
+    padding: 5px 0;
+    text-align: center; }
+  #footer .btn-primary {
+    color: #000;
+    cursor: pointer;
+    background-color: #b9b9b9;
+    border-color: #bf0044; }
+  #footer .btn-primary:hover {
+    color: rgba(132, 0, 0, 0.79);
+    background-color: rgba(171, 113, 113, 0.19);
+    border-color: #bf0044; }
 
 /*
 
@@ -674,6 +679,28 @@ Used in the Home Component
 
 --------------------------------------------------
 */
+#splashHead {
+  background-image: url("assets/img/elwoodberry-bckgrnd-img_001.png");
+  background-size: cover;
+  background-position: center center;
+  height: 350px; }
+  #splashHead .displayPanel {
+    font-family: 'Roboto', sans-serif;
+    text-align: center; }
+    #splashHead .displayPanel img {
+      width: 35%; }
+  #splashHead .transparency {
+    background-color: rgba(228, 242, 255, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+
+@media (min-width: 700px) {
+  #splashHead .displayPanel img {
+    width: 18%; } }
+
 #splashhead {
   background-color: #FFF;
   height: 725px;
@@ -811,6 +838,32 @@ Used in the Home Component
         right: 225px;
         position: absolute;
         z-index: 12; } }
+
+.githubCell {
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif; }
+  .githubCell .panel .panel-heading {
+    background-color: transparent; }
+  .githubCell .panel .panel-body {
+    background-color: transparent; }
+  .githubCell .panel ul li {
+    display: block;
+    font-family: 'Roboto', sans-serif; }
+  .githubCell .panel a {
+    color: #bf0044;
+    font-family: 'Roboto', sans-serif; }
+  .githubCell .panel a:hover {
+    text-decoration: none; }
+  .githubCell .panel h3 {
+    padding: 5px 0;
+    text-align: left; }
+  .githubCell .panel h4 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    line-height: 1;
+    height: 55px;
+    width: 100%; }
 
 /* Components */
 /*
@@ -1050,8 +1103,9 @@ section {
       font-family: Roboto,sans-serif;
       font-size: 14px;
       margin-top: 10px;
-      padding: 5px 0;
-      text-align: center; }
+      padding: 15px 0;
+      text-align: center;
+      text-transform: uppercase; }
     section .container .row div[class*="col"] a {
       display: block;
       height: 100%;
