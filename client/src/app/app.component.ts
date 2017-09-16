@@ -20,7 +20,7 @@ export class AppComponent {
 			firstName: "Elwood",
 			middleName: "S.",
 			lastName: "Berry III",
-			title: "Full Stack JavaScript Developer",
+			title: "Junior/Mid Level JavaScript Developer",
 			summary: "M.E.A.N Stack JavaScript Developer working in NodeJS, Express, Angular 2, MongoDB, Angular Material 2, Karma, Jasmine, StripeJS, etc.",
 			address: "Blacklick, OH 43004",
 			country: "United States Of America",
@@ -79,15 +79,15 @@ export class AppComponent {
 				description: "A simple solution to the distribution and display of my most current resume and portfolio projects.",
 				stack: [
 					{
-						name: "Angular (v4)", 
+						name: "Angular (v4)",
 						url: "https://www.npmjs.com/package/angular"
 					},
 					{
-						name: "Node.js", 
+						name: "Node.js",
 						url: "https://nodejs.org"
 					},
 					{
-						name: "Express.js", 
+						name: "Express.js",
 						url: "https://www.npmjs.com/package/express"
 					}
 				]
@@ -99,15 +99,15 @@ export class AppComponent {
 				description: "Intended to be an independent desktop application that monitors custom price patterns.",
 				stack: [
 					{
-						name: "Electron.js", 
+						name: "Electron.js",
 						url: "https://www.npmjs.com/package/electron"
 					},
 					{
-						name: "Angular (v4)", 
+						name: "Angular (v4)",
 						url: "https://www.npmjs.com/package/angular"
 					},
 					{
-						name: "Moment.js", 
+						name: "Moment.js",
 						url: "https://www.npmjs.com/package/moment"
 					}
 				]
@@ -119,15 +119,15 @@ export class AppComponent {
 				description: "Every second this script will scrape currency pair price data for multiple pairs. Every minute this script will evalutate the high, low, open and close price for each pair and log the price in a database.",
 				stack: [
 					{
-						name: "Moment.js", 
+						name: "Moment.js",
 						url: "https://www.npmjs.com/package/moment"
 					},
 					{
-						name: "Cheerio", 
+						name: "Cheerio",
 						url: "https://www.npmjs.com/package/cheerio"
 					},
 					{
-						name: "Request", 
+						name: "Request",
 						url: "https://www.npmjs.com/package/request"
 					}
 				]
@@ -139,15 +139,15 @@ export class AppComponent {
 				description: "Diabetic medical supply distribution company simple vendor intake solution. Resposive web based desktop and mobile solution for the management of vendor data, appointments with vendors and sales data.",
 				stack: [
 					{
-						name: "Angular (v4)", 
+						name: "Angular (v4)",
 						url: "https://www.npmjs.com/package/angular"
 					},
 					{
-						name: "NG Bootstrap", 
+						name: "NG Bootstrap",
 						url: "https://www.npmjs.com/package/ng-bootstrap"
 					},
 					{
-						name: "Moment.js", 
+						name: "Moment.js",
 						url: "https://www.npmjs.com/package/moment"
 					}
 				]
@@ -218,7 +218,7 @@ export class AppComponent {
 
 		// console.log("Title: " + this.stackLogos[0].title);
 
-		// LINK TO RESUME - http://bit.ly/2prschc 
+		// LINK TO RESUME - http://bit.ly/2prschc
 
 	}
 

@@ -60,7 +60,7 @@ var AppComponent = (function () {
                 firstName: "Elwood",
                 middleName: "S.",
                 lastName: "Berry III",
-                title: "Full Stack JavaScript Developer",
+                title: "Junior/Mid Level JavaScript Developer",
                 summary: "M.E.A.N Stack JavaScript Developer working in NodeJS, Express, Angular 2, MongoDB, Angular Material 2, Karma, Jasmine, StripeJS, etc.",
                 address: "Blacklick, OH 43004",
                 country: "United States Of America",
@@ -252,7 +252,7 @@ var AppComponent = (function () {
             }
         ];
         // console.log("Title: " + this.stackLogos[0].title);
-        // LINK TO RESUME - http://bit.ly/2prschc 
+        // LINK TO RESUME - http://bit.ly/2prschc
     }
     return AppComponent;
 }());
